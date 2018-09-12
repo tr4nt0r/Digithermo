@@ -159,14 +159,14 @@
 </layers>
 <board>
 <plain>
-<wire x1="90.15" y1="3.74561875" x2="90.15" y2="53.41455625" width="0" layer="20"/>
-<wire x1="90.15" y1="53.41455625" x2="86.42705625" y2="57.1375" width="0" layer="20" curve="90"/>
-<wire x1="86.42705625" y1="57.1375" x2="3.757759375" y2="57.1375" width="0" layer="20"/>
-<wire x1="3.757759375" y1="57.1375" x2="0" y2="53.379740625" width="0" layer="20" curve="90"/>
-<wire x1="0" y1="53.379740625" x2="0" y2="3.777915625" width="0" layer="20"/>
-<wire x1="0" y1="3.777915625" x2="3.777915625" y2="0" width="0" layer="20" curve="90"/>
-<wire x1="3.777915625" y1="0" x2="86.40438125" y2="0" width="0" layer="20"/>
-<wire x1="86.40438125" y1="0" x2="90.15" y2="3.74561875" width="0" layer="20" curve="90"/>
+<wire x1="0" y1="53.096996875" x2="0" y2="4.603765625" width="0" layer="20"/>
+<wire x1="0" y1="4.603765625" x2="4.603765625" y2="0" width="0" layer="20" curve="90"/>
+<wire x1="4.603765625" y1="0" x2="85.317146875" y2="0" width="0" layer="20"/>
+<wire x1="85.317146875" y1="0" x2="90.15" y2="4.832853125" width="0" layer="20" curve="90"/>
+<wire x1="90.15" y1="4.832853125" x2="90.15" y2="52.8569125" width="0" layer="20"/>
+<wire x1="90.15" y1="52.8569125" x2="85.8694125" y2="57.1375" width="0" layer="20" curve="90"/>
+<wire x1="85.8694125" y1="57.1375" x2="4.040503125" y2="57.1375" width="0" layer="20"/>
+<wire x1="4.040503125" y1="57.1375" x2="0" y2="53.096996875" width="0" layer="20" curve="90"/>
 <text x="0" y="-0.381" size="0.1524" layer="200" font="vector">G:/Meine Ablage/EAGLE/404px-sam_and_max_sth.bmp</text>
 <text x="0" y="-0.381" size="0.1524" layer="200" font="vector">G:/Meine Ablage/EAGLE/404px-sam_and_max_sth.bmp</text>
 <rectangle x1="71.7804" y1="28.3972" x2="71.882" y2="28.4988" layer="21"/>
@@ -3664,24 +3664,24 @@ design rules under a new name.</description>
 <contactref element="J1" pad="SLEEVE"/>
 <contactref element="B1" pad="-"/>
 <polygon width="0.3048" layer="1" orphans="yes">
-<vertex x="3.777915625" y="0"/>
-<vertex x="86.392084375" y="0" curve="90"/>
-<vertex x="90.17" y="3.777915625"/>
-<vertex x="90.17" y="53.372084375" curve="90"/>
-<vertex x="86.392084375" y="57.15"/>
-<vertex x="3.777915625" y="57.15" curve="90"/>
-<vertex x="0" y="53.372084375"/>
-<vertex x="0" y="3.777915625" curve="90"/>
+<vertex x="90.17" y="4.865546875"/>
+<vertex x="90.17" y="52.828021875" curve="90"/>
+<vertex x="85.848021875" y="57.15"/>
+<vertex x="4.33604375" y="57.15" curve="90"/>
+<vertex x="0" y="52.81395625"/>
+<vertex x="0" y="4.603765625" curve="90"/>
+<vertex x="4.603765625" y="0"/>
+<vertex x="85.304453125" y="0" curve="90"/>
 </polygon>
 <polygon width="0.3048" layer="16" orphans="yes">
-<vertex x="3.777915625" y="0"/>
-<vertex x="86.392084375" y="0" curve="90"/>
-<vertex x="90.17" y="3.777915625"/>
-<vertex x="90.17" y="53.088715625" curve="90"/>
-<vertex x="86.108715625" y="57.15"/>
-<vertex x="3.777915625" y="57.15" curve="90"/>
-<vertex x="0" y="53.372084375"/>
-<vertex x="0" y="3.777915625" curve="90"/>
+<vertex x="90.17" y="4.87805"/>
+<vertex x="90.17" y="52.81395625" curve="90"/>
+<vertex x="85.83395625" y="57.15"/>
+<vertex x="4.279003125" y="57.15" curve="90"/>
+<vertex x="0" y="52.870996875"/>
+<vertex x="0" y="4.577090625" curve="90"/>
+<vertex x="4.577090625" y="0"/>
+<vertex x="85.29195" y="0" curve="90"/>
 </polygon>
 <contactref element="IC4" pad="3"/>
 <contactref element="Q1" pad="2"/>
