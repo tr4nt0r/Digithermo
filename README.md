@@ -22,3 +22,8 @@ Qty | Parts              | Value    | Device          | Package      | Descripti
 1   |                    |          |3.5mm Audio Plug |              |                     |[AliExpress](https://de.aliexpress.com/item/10Pcs-lot-Plastic-metal-3-5mm-Male-Plug-Jack-Adapter-dual-channel-Audio-Connector-Male-Jack/32890263251.html?spm=a2g0s.9042311.0.0.542c4c4dyi8zH7)
 1   |J2                  |          |DC Jack 2.1mm    |              |                     |[AliExpress](https://www.aliexpress.com/item/-/32902679494.html?spm=a2g0s.8937460.0.0.4f812e0eONVXqt)
 1   |                    |DS18b20   |Temperaturfühler |              |                     |[AliExpress](https://www.aliexpress.com/item/Stainless-steel-package-Waterproof-DS18b20-temperature-probe-temperature-sensor-18B20-For-Arduino/32236998050.html?spm=a2g0s.8937460.0.0.4f812e0eONVXqt)
+
+
+# Schematic
+
+![Schematic](/images/schematic.png)
