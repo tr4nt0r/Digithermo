@@ -5,8 +5,6 @@
 #include <DallasTemperature.h>
 #include <OneWire.h>
 
-#define SENSOR_PIN 2
-
 const uint8_t numbers[10] = {
 	0b11111100,  //0
 	0b01100000,  //1
@@ -24,7 +22,7 @@ const uint8_t letter_E = 0b10011110;
 const uint8_t letter_r = 0b00001010;
 
 const uint8_t digit2pin[4] = { 16, 19, 18, 17 };
-
+const uint8_t SENSOR_PIN 2
 uint8_t active = 0;
 volatile uint16_t temperature;
 volatile bool sensorError = false;
