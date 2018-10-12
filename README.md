@@ -27,3 +27,11 @@ Qty | Parts              | Value    | Device          | Package      | Descripti
 # Schematic
 
 ![Schematic](/images/schematic.png)
+
+# Anschlüsse Temperaturfühler
+
+![Anschlüsse Temeperaturfühler](/images/DS18b20-cable.jpg)
+
+Rot: VCC  
+Schwarz: GND  
+Gelb: DATA  
