@@ -35,3 +35,8 @@ Qty | Parts              | Value    | Device          | Package      | Descripti
 Rot: VCC  
 Schwarz: GND  
 Gelb: DATA  
+
+
+# Bilder
+
+![Bild](/images/IMG_20181008_231634360.jpg)
