@@ -20,6 +20,7 @@ const uint8_t numbers[10] = {
 
 const uint8_t letter_E = 0b10011110;
 const uint8_t letter_r = 0b00001010;
+const uint8_t symbol_minus = 0b10000000;
 
 const uint8_t digit2pin[4] = { 16, 19, 18, 17 };
 const uint8_t SENSOR_PIN = 2;
@@ -51,7 +52,7 @@ void loop()
 	}
 	sensorError = false;
 	noInterrupts();
-	temperature = sensors.getTempCByIndex(0)*100;
+	temperature = sensors.getTempCByIndex(0)*10;
 	interrupts();
 	delay(1000);
 }
@@ -68,13 +69,16 @@ void selftest() {
 
 void displayMultiplex() {
 	digitalWrite(digit2pin[active], LOW);  //disable last digit
-	active = (active == 3) ? 0 : active + 1; //go to next digit
+	active = (active ==  3) ? 0 : active + 1; //go to next digit
 	digitalWrite(digit2pin[active], HIGH); //enable next digit
 
 	if (!sensorError) {
-
-		uint8_t digit = temperature / pow(10, active + 1) % 10;  //get number to display on active digit
-		PORTB = numbers[digit];  //Set I/Os for digit
+		if(temperature < 0 && active == 3) {
+			PORTB = symbol_minus;
+		} else {
+			uint8_t digit = abs(temperature) / pow(10, active + 1) % 10;  //get number to display on active digit
+			PORTB = numbers[digit];  //Set I/Os for digit#
+		}
 	}
 	else {
 		//display Err 
